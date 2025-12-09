@@ -1,0 +1,671 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lenovo" at "2025-12-09T08:59:20.6579744Z"
+Built from '6000.2/staging' branch; Version is '6000.2.10f1 (d3d30d158480) revision 13882125'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 24260 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-12-09T08:59:20Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Lenovo/Project Homebound
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50793
+-licensingIpc
+LicenseClient-Lenovo
+-job-worker-count
+7
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/Lenovo/Project Homebound
+C:/Users/Lenovo/Project Homebound
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [17932]  Target information:
+
+Player connection [17932]  * "[IP] 10.16.209.103 [Port] 0 [Flags] 2 [Guid] 458812339 [EditorId] 458812339 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-UBK3URH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [17932] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [17932] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 19724, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.3+a4e98f1
+  Session Id:              315bb9c0a6444011a2d77f11ac7cec78
+  Correlation Id:          265c44e007df65f343bb4b54286606b3
+  External correlation Id: 8026060781942255873
+  Machine Id:              TDOrmBKa8CVaQMiVg0c2qyc6OfI=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Lenovo" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Lenovo-notifications" at "2025-12-09T08:59:20.7018145Z"
+[Licensing::Module] Licensing Background thread has ended after 0.04s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.10f1 (d3d30d158480)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Lenovo/Project Homebound/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28e1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.7702
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002433 seconds.
+- Loaded All Assemblies, in  0.394 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.353 seconds
+Domain Reload Profiling: 743ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (47ms)
+	LoadAllAssembliesAndSetupDomain (162ms)
+		LoadAssemblies (131ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (159ms)
+			TypeCache.Refresh (157ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (353ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (320ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (52ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 7972504606644-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.814 seconds
+Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+<HackaTime> Initializing...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs:76)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs:41)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs Line: 76)
+
+<HackaTime> Sending heartbeat...
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<SendHeartbeat>d__29:MoveNext () (at ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs:144)
+System.Runtime.CompilerServices.AsyncVoidMethodBuilder:Start<WakaTime.Plugin/<SendHeartbeat>d__29> (WakaTime.Plugin/<SendHeartbeat>d__29&)
+WakaTime.Plugin:SendHeartbeat (bool)
+WakaTime.Plugin:Initialize () (at ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs:78)
+WakaTime.Plugin:.cctor () (at ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs:41)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
+
+(Filename: ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs Line: 144)
+
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Project Homebound
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.875 seconds
+Domain Reload Profiling: 1684ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (38ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (542ms)
+		LoadAssemblies (381ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (256ms)
+			TypeCache.Refresh (188ms)
+				TypeCache.ScanAssembly (170ms)
+			BuildScriptInfoCaches (50ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (876ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (667ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (147ms)
+			ProcessInitializeOnLoadAttributes (405ms)
+			ProcessInitializeOnLoadMethodAttributes (98ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+<HackaTime> Got response
+{"id":840356993,"user_id":22939,"branch":"main","category":"coding","dependencies":[],"editor":"","entity":"Unsaved Scene","language":"unity","machine":null,"operating_system":"","project":"Project Homebound","type":"file","user_agent":"unity-hackatime","line_additions":null,"line_deletions":null,"lineno":null,"lines":null,"cursorpos":null,"project_root_count":null,"time":1765270784.0,"is_write":false,"created_at":"2025-12-09T08:58:59.005Z","updated_at":"2025-12-09T08:58:59.006Z","fields_hash":"1622946273794c2779cc5b31a39c73b0","source_type":"direct_entry","ip_address":"46.97.176.204","ysws_program":"nothing","deleted_at":null,"raw_data":{"time":1765270784.0,"type":"file","lines":null,"branch":"main","editor":"","entity":"Unsaved Scene","lineno":null,"machine":null,"project":"Project Homebound","user_id":22939,"category":"coding","is_write":false,"language":"unity","cursorpos":null,"user_agent":"unity-hackatime","dependencies":[],"line_additions":null,"line_deletions":null,"operating_system":"","project_root_count":null},"raw_heartbeat_upload_id":134426378}
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<SendHeartbeat>d__29:MoveNext () (at ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs:187)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<bool>:TrySetResult (bool)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetResult (bool)
+WakaTime.Plugin/<>c__DisplayClass29_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs:176)
+UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+
+(Filename: ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs Line: 187)
+
+<HackaTime> Sent heartbeat!
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+WakaTime.Plugin/<SendHeartbeat>d__29:MoveNext () (at ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs:203)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:InvokeMoveNext (object)
+System.Threading.ExecutionContext:RunInternal (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Threading.ExecutionContext:Run (System.Threading.ExecutionContext,System.Threading.ContextCallback,object,bool)
+System.Runtime.CompilerServices.AsyncMethodBuilderCore/MoveNextRunner:Run ()
+System.Threading.Tasks.AwaitTaskContinuation:InvokeAction (object)
+System.Threading.Tasks.AwaitTaskContinuation:RunCallback (System.Threading.ContextCallback,object,System.Threading.Tasks.Task&)
+System.Threading.Tasks.SynchronizationContextAwaitTaskContinuation:Run (System.Threading.Tasks.Task,bool)
+System.Threading.Tasks.Task:FinishContinuations ()
+System.Threading.Tasks.Task:FinishStageThree ()
+System.Threading.Tasks.Task`1<bool>:TrySetResult (bool)
+System.Threading.Tasks.TaskCompletionSource`1<bool>:TrySetResult (bool)
+WakaTime.Plugin/<>c__DisplayClass29_0:<SendHeartbeat>b__0 (UnityEngine.AsyncOperation) (at ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs:176)
+UnityEngine.AsyncOperation:InvokeCompletionEvent ()
+
+(Filename: ./Library/PackageCache/com.daniel-geo.unityhackatime@5ac210a9a287/Editor/Plugin.cs Line: 203)
+
+Unloading 6500 unused Assets / (5.7 MB). Loaded Objects now: 7215.
+Memory consumption went from 135.5 MB to 129.9 MB.
+Total: 26.732500 ms (FindLiveObjects: 1.550800 ms CreateObjectMapping: 8.324100 ms MarkObjects: 11.164400 ms  DeleteObjects: 5.690300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 419932.767978 seconds.
+  path: Assets/scripts/move_script.cs
+  artifactKey: Guid(6bf73eecf894a034abc1144dc83def0e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/scripts/move_script.cs using Guid(6bf73eecf894a034abc1144dc83def0e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '50ee69563a54ee9e1ac7caf9d98fffb6') in 0.7711119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Lobby Project Homebound.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Scenes/Lobby Project Homebound.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67d0eaed352b24dec538ad312b7ba16b') in 0.0304455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.12 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6491 unused Assets / (4.8 MB). Loaded Objects now: 7218.
+Memory consumption went from 134.5 MB to 129.7 MB.
+Total: 19.346500 ms (FindLiveObjects: 1.596700 ms CreateObjectMapping: 2.398000 ms MarkObjects: 10.025800 ms  DeleteObjects: 5.323900 ms)
+
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.URPReflectionProbeSettings, Unity.RenderPipelines.Universal.Runtime (1 object)
+	UnityEngine.Rendering.UnifiedRayTracing.RayTracingRenderPipelineResources, Unity.UnifiedRayTracing.Runtime (1 object)
+	UnityEngine.Rendering.Universal.OnTilePostProcessResource, Unity.RenderPipelines.Universal.Runtime (1 object)
+Prepare: number of updated asset objects reloaded= 2
+========================================================================
+Received Import Request.
+  Time since last request: 123.254269 seconds.
+  path: Assets/large building A.blend
+  artifactKey: Guid(3a590fa5e193b224bb3221143f92278a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Missing types referenced from component UniversalRenderPipelineGlobalSettings on game object UniversalRenderPipelineGlobalSettings:
+	UnityEngine.Rendering.URPReflectionProbeSettings, Unity.RenderPipelines.Universal.Runtime (1 object)
+	UnityEngine.Rendering.UnifiedRayTracing.RayTracingRenderPipelineResources, Unity.UnifiedRayTracing.Runtime (1 object)
+	UnityEngine.Rendering.Universal.OnTilePostProcessResource, Unity.RenderPipelines.Universal.Runtime (1 object)
+Start importing Assets/large building A.blend using Guid(3a590fa5e193b224bb3221143f92278a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd52e5a42c17c6e7da4f103fa8cf2d173') in 0.7413095 seconds
+Number of updated asset objects reloaded before import = 1Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/sad circle path.blend
+  artifactKey: Guid(60f801adad6ca9a40b3481295c8ed549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sad circle path.blend using Guid(60f801adad6ca9a40b3481295c8ed549) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43350445d771acd2ae149b7b4ea5748d') in 0.0194221 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/middle finger radiation glove.blend
+  artifactKey: Guid(3e1477d973759e742aa9c05a6859040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/middle finger radiation glove.blend using Guid(3e1477d973759e742aa9c05a6859040e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6af948edd1ccdc5086af9baa6a219f75') in 0.0943776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/middle finger radiation glove.blend
+  artifactKey: Guid(3e1477d973759e742aa9c05a6859040e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/middle finger radiation glove.blend using Guid(3e1477d973759e742aa9c05a6859040e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a1eeaa4d8fa49dd7e93be595afa0397c') in 0.0635643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sad tree small.blend
+  artifactKey: Guid(86132097d5e5fd44382eac91dbe90b38) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sad tree small.blend using Guid(86132097d5e5fd44382eac91dbe90b38) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '882712fb150c9b784bb9eaafd33f9620') in 0.0306019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/large building C.blend
+  artifactKey: Guid(4b45d400a0a55a94eb63fc82489f2a3b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/large building C.blend using Guid(4b45d400a0a55a94eb63fc82489f2a3b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a857588e0eca746ac6d850dbdcf6bb4') in 0.0316548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Straight road
+  artifactKey: Guid(bdcb0c793e2ac3b4e9d6db6bd58370db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Straight road using Guid(bdcb0c793e2ac3b4e9d6db6bd58370db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '713fdac7d2b18bdc146b1fbfa111153e') in 0.0049269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/road turn
+  artifactKey: Guid(a26b3b5af5621374e815f174fbb16a32) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/road turn using Guid(a26b3b5af5621374e815f174fbb16a32) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '226027c9bd8421f02ba63d1e1f7343e6') in 0.0040394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/parking lot.blend
+  artifactKey: Guid(e5236ca5fb1b7cb4bb96ccbd261b8317) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/parking lot.blend using Guid(e5236ca5fb1b7cb4bb96ccbd261b8317) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b1cf6774f0e23b0dcd5dbf2a45ee7ced') in 0.0653489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 228
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/sad border.blend
+  artifactKey: Guid(53edd67647f172049b5b722716bcf3af) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sad border.blend using Guid(53edd67647f172049b5b722716bcf3af) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b7f7ba50dd1e9b80a3f63c643c9c34f5') in 0.0137507 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/pavemant.blend
+  artifactKey: Guid(700507e6ef0bf4c40a9aa6f9178ab803) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/pavemant.blend using Guid(700507e6ef0bf4c40a9aa6f9178ab803) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e1c65d896ecebe63d8a81f0fd151486') in 0.0207391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ff99e823c6df555786fbd3ff21065040') in 0.0584983 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sad border.blend
+  artifactKey: Guid(53edd67647f172049b5b722716bcf3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sad border.blend using Guid(53edd67647f172049b5b722716bcf3af) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f00c3f16ca73111eda97ed4fd39b2ffe') in 0.0473745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Night sky/NightSkyHDRI008_16K_TONEMAPPED.jpg
+  artifactKey: Guid(1de8aab135727ca47ab92a717513d956) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Night sky/NightSkyHDRI008_16K_TONEMAPPED.jpg using Guid(1de8aab135727ca47ab92a717513d956) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '514b16650873aa123c804aff54d87d0f') in 0.3468083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/left finger radiation glove.blend
+  artifactKey: Guid(8a1dd771a8b9a144b8b6f1b76336a812) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/left finger radiation glove.blend using Guid(8a1dd771a8b9a144b8b6f1b76336a812) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'bafeae807ac289821f9c341c8a7ed841') in 0.0309029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Balkan van/1387 Van.png
+  artifactKey: Guid(227583bdae64c2b42ad038493fbdee41) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Balkan van/1387 Van.png using Guid(227583bdae64c2b42ad038493fbdee41) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3690e9862262ffc443324b8e912584a6') in 0.0383778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/sad border1.blend
+  artifactKey: Guid(ba0c7ac25bc90244f9fc04dce434e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sad border1.blend using Guid(ba0c7ac25bc90244f9fc04dce434e1bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00014d606e57dac8c6b1232947fe3a2d') in 0.0253627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/4 way road/4 way street.blend
+  artifactKey: Guid(b1f75b79d55858c4987b38b19a3bf964) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/4 way road/4 way street.blend using Guid(b1f75b79d55858c4987b38b19a3bf964) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e0d5afa4f44cabf12d62e3e5b722ea29') in 0.016721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Night sky/Materials
+  artifactKey: Guid(7826f097be465554da35e877d2b1cb48) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Night sky/Materials using Guid(7826f097be465554da35e877d2b1cb48) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9dfa80f91bd0742b42cae1d3b6ba7a1b') in 0.0037262 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Settings/Mobile_RPAsset.asset
+  artifactKey: Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/Mobile_RPAsset.asset using Guid(5e6cbd92db86f4b18aec3ed561671858) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '209f8978b601283f16f44b4db2defcd3') in 0.0334984 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/4 way road
+  artifactKey: Guid(7621540ebce397b4a8cdf166a87a7e5f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/4 way road using Guid(7621540ebce397b4a8cdf166a87a7e5f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9ac74b96a06d8e63f51cca3b6df77f6e') in 0.0057585 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Night sky/Materials/horsehead-nebula-1920x1080.mat
+  artifactKey: Guid(bd404da03c5226a4aa8148220b671a98) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Night sky/Materials/horsehead-nebula-1920x1080.mat using Guid(bd404da03c5226a4aa8148220b671a98) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '637697a6ba7b79b253af831fa61030fb') in 0.0050151 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Straight road/straight road.blend
+  artifactKey: Guid(0f00e018232563f47aa59d340e9c4c45) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Straight road/straight road.blend using Guid(0f00e018232563f47aa59d340e9c4c45) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4146d6d173303e075b8970767ab9da1d') in 0.015775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Night sky/Materials/NightSkyHDRI009_16K_TONEMAPPED.mat
+  artifactKey: Guid(5109108dcff237341acf76018ea84ed1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Night sky/Materials/NightSkyHDRI009_16K_TONEMAPPED.mat using Guid(5109108dcff237341acf76018ea84ed1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '687a3f34c6e326b82e554956d215efe6') in 0.0079231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/right finger radiation glove.blend
+  artifactKey: Guid(10bcaf1374578044e9404c0dc025a944) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/right finger radiation glove.blend using Guid(10bcaf1374578044e9404c0dc025a944) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e472540f4694c229b3b729be4a3e64a') in 0.0314049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/radiation hand.blend
+  artifactKey: Guid(3ea7b44f1b79c6b448de05a607fa276f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/radiation hand.blend using Guid(3ea7b44f1b79c6b448de05a607fa276f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '51e63f2893a8a60bfb1eaa30eab28b3d') in 0.0372037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/broken car.blend
+  artifactKey: Guid(f3666924968847a4b9fca9e9253d3414) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/broken car.blend using Guid(f3666924968847a4b9fca9e9253d3414) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '53c5e03609fe447d268c6bdcf09513c7') in 0.0164935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Night sky/Materials/sci_fi-stars-milky_way-night-sky-starry_sky-580731.mat
+  artifactKey: Guid(9b8eaa94601d13e4eac483277128c2b4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Night sky/Materials/sci_fi-stars-milky_way-night-sky-starry_sky-580731.mat using Guid(9b8eaa94601d13e4eac483277128c2b4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f454f9464c1b05f60fbb0770c6b8af0d') in 0.0060999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/1 crack road
+  artifactKey: Guid(9edd3ed6184690f458733cb9e989455c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/1 crack road using Guid(9edd3ed6184690f458733cb9e989455c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9e699aa66ac286b5f8a7fd8dd974f11d') in 0.0056844 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/skyscraper building.blend
+  artifactKey: Guid(33c8fa7a4310e1c4088723a05df0833f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/skyscraper building.blend using Guid(33c8fa7a4310e1c4088723a05df0833f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '79bf8808ddc0fbb3113970df1a5493e8') in 0.0166297 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/big finger radiation glove.blend
+  artifactKey: Guid(889b8c824365a664394b01378c176238) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/big finger radiation glove.blend using Guid(889b8c824365a664394b01378c176238) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '25cb3dee0268a323be2c60dcbcc64aa3') in 0.015308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/1 crack road/straight street 1 crack.blend
+  artifactKey: Guid(a0da6a3468e250c4e83da5d6cab6c478) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/1 crack road/straight street 1 crack.blend using Guid(a0da6a3468e250c4e83da5d6cab6c478) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '35e288b16e1d1990548593346a8fa27e') in 0.0164029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 9
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Balkan van
+  artifactKey: Guid(3fbd18a35f1059e4684a03da4e9c84c1) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Balkan van using Guid(3fbd18a35f1059e4684a03da4e9c84c1) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cf1138dce65648e0a7acb728a0f631ea') in 0.0042332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/large building A.blend
+  artifactKey: Guid(3a590fa5e193b224bb3221143f92278a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/large building A.blend using Guid(3a590fa5e193b224bb3221143f92278a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f298c9c927dd87fce2e0d07e95f08ca7') in 0.0153851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4857d28b956481d32a1bbca7b428c7a4') in 0.0247593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/sad  square path.blend
+  artifactKey: Guid(d862c97a8d7afc3408398a72574b7fd6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sad  square path.blend using Guid(d862c97a8d7afc3408398a72574b7fd6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7a381d08a33d4f42d19d2aa027c1e671') in 0.020072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/portal.blend
+  artifactKey: Guid(1620842c4dd47eb4dae5630e64a85efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/portal.blend using Guid(1620842c4dd47eb4dae5630e64a85efe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e80eb5489fe88c567973f12b24afdde2') in 0.2742422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 57
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/sad tree big.blend
+  artifactKey: Guid(f6b18ff5664c2254c8576580fa52568e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/sad tree big.blend using Guid(f6b18ff5664c2254c8576580fa52568e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '982fa00a1e41b1ea5a9c5b5600ce53f0') in 0.018362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 30
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Night sky
+  artifactKey: Guid(4faaf636f313a7d4090403a6b08dd14f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Night sky using Guid(4faaf636f313a7d4090403a6b08dd14f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ac319bc8a6d550f5cf1ab25196cf93c7') in 0.0043427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/4 way road/Zombie_Atlas.png
+  artifactKey: Guid(4fcab260c27f7144f8ec1f77fe9ce74f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/4 way road/Zombie_Atlas.png using Guid(4fcab260c27f7144f8ec1f77fe9ce74f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'c902507e072e077a51369cd81f961861') in 0.0117178 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.656662 seconds.
+  path: Assets/broken car.blend
+  artifactKey: Guid(f3666924968847a4b9fca9e9253d3414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/broken car.blend using Guid(f3666924968847a4b9fca9e9253d3414) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc2d884f02803283e0198ad87ee555ce') in 0.0681608 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.594463 seconds.
+  path: Assets/skyscraper building.blend
+  artifactKey: Guid(33c8fa7a4310e1c4088723a05df0833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/skyscraper building.blend using Guid(33c8fa7a4310e1c4088723a05df0833f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b26909f3d064411f97b9b927fdf642af') in 0.0671584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
