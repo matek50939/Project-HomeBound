@@ -1,0 +1,1 @@
+This is the lobby and city of the game i am making with my friend and it contains all the blender files that i made and put in untiy scenes. I also made a script so you can move around and spectate the scenes. Unfrotunately to go back to the main menu you need to exit the application. I  learned a lot from this project on how to edit things in 3d. Enjoy!
